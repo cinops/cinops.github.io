@@ -1,13 +1,56 @@
 ---
 layout: default
+title: CreativeBytes
 ---
+
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Awesome Site</title>
+    <style>
+        /* This adds a nice 'modern' touch to the default Cayman layout */
+        .btn {
+            background-color: rgba(255,255,255,0.1);
+            border: 1px solid white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.3rem;
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        .btn:hover {
+            background-color: white;
+            color: #159957; /* Matches Cayman's default green */
+        }
+        .support-container {
+            margin-top: 2rem;
+            padding: 2rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+            color: #333;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to my website!</h1>
-    <p>Hosted with love on GitHub Pages.</p>
+
+    <section class="main-content">
+        <h2>App Support</h2>
+        <p>Welcome to the CreativeBytes support hub. We are dedicated to ensuring our apps work perfectly for you.</p>
+        
+        <div class="support-container">
+            <h3>Need Assistance?</h3>
+            <p>If you're experiencing bugs, crashes, or have a feature request, please reach out to our team directly.</p>
+            <br>
+            <a href="mailto:support@creativebytes.placeholder" class="btn">Contact Support Team</a>
+        </div>
+
+        <hr>
+
+        <h3>App Documentation</h3>
+        <ul>
+            <li><strong>App One:</strong> Troubleshooting and Setup</li>
+            <li><strong>App Two:</strong> User Guide</li>
+        </ul>
+    </section>
+
 </body>
 </html>
