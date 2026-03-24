@@ -54,6 +54,13 @@ title: simplyCreative
         .quick-link:hover {
             text-decoration: underline;
         }
+
+        /* App Policies Sub-list */
+        .app-policies {
+            margin-top: 8px;
+            margin-bottom: 8px;
+            list-style-type: circle;
+        }
     </style>
 </head>
 <body>
@@ -61,7 +68,7 @@ title: simplyCreative
         <div class="support-card">
             <h3>App Support Hub</h3>
             <p>Have a question or found a bug? Our team is ready to help you get back on track.</p>
-           
+            
             <a href="mailto:support@simplycreative.app" class="btn-support">
                 Email Support Team
             </a>
@@ -71,11 +78,18 @@ title: simplyCreative
             <ul style="color: #64748b;">
                 <li>
                     <a href="/privacy-policy" class="quick-link">
-                        <strong>Privacy Policy</strong>
+                        <strong>General Privacy Policy</strong>
                     </a>: 
                     View how we handle your data.
+                    
+                    <ul class="app-policies">
+                        <li>
+                            <strong>App Policies:</strong> 
+                            <a href="https://simplycreative.app/apps/NoChipsPokerTracker/privacy-policy.md" class="quick-link">NoChipsPokerTracker</a>
+                        </li>
+                    </ul>
                 </li>
-                <li>
+                <li style="margin-top: 10px;">
                     <strong>Terms of Service:</strong> 
                     Our standard app usage terms.
                 </li>
