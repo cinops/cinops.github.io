@@ -2,7 +2,6 @@
 layout: default
 title: simplyCreative
 ---
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,14 +19,12 @@ title: simplyCreative
             border: 2px solid transparent;
             margin-top: 20px;
         }
-
         .btn-support:hover {
             background-color: transparent;
             color: #159957 !important; /* Turns green on hover */
             border: 2px solid #159957;
             text-decoration: none;
         }
-
         /* Clean Container for Support Content */
         .support-card {
             margin-top: 3rem;
@@ -38,39 +35,52 @@ title: simplyCreative
             box-shadow: 0 10px 30px rgba(0,0,0,0.05);
             text-align: center;
         }
-
         .support-card h3 {
             color: #1e293b;
             margin-top: 0;
         }
-
         .support-card p {
             color: #64748b;
             max-width: 500px;
             margin: 0 auto 20px auto;
         }
+
+        /* Quick Links styling - makes links look clean and natural */
+        .quick-link {
+            color: inherit;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .quick-link:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
-
     <section class="main-content">
         <div class="support-card">
             <h3>App Support Hub</h3>
             <p>Have a question or found a bug? Our team is ready to help you get back on track.</p>
-            
+           
             <a href="mailto:support@simplycreative.app" class="btn-support">
                 Email Support Team
             </a>
         </div>
-
         <div style="margin-top: 50px;">
             <h4>Quick Links</h4>
             <ul style="color: #64748b;">
-                <li><strong>Privacy Policy:</strong> View how we handle your data.</li>
-                <li><strong>Terms of Service:</strong> Our standard app usage terms.</li>
+                <li>
+                    <a href="/privacy-policy" class="quick-link">
+                        <strong>Privacy Policy</strong>
+                    </a>: 
+                    View how we handle your data.
+                </li>
+                <li>
+                    <strong>Terms of Service:</strong> 
+                    Our standard app usage terms.
+                </li>
             </ul>
         </div>
     </section>
-
 </body>
 </html>
